@@ -1,0 +1,21 @@
+.responsive {
+    width: 100%;
+    max-width: 30%;
+    height: auto;
+}
+
+table, th, td, tr {
+    border-collapse: collapse;
+    border: 2px dashed black;
+    text-align: left;
+    table-layout: auto;
+    //width: 100%;
+    max-width: 70%;
+    padding: 5px;
+    
+    min-width: 60%;
+
+    th, td {
+        //display: block;
+    }
+}
